@@ -1,4 +1,4 @@
-package main.java.teste.erbd.storm;
+package erbd.twitter;
 
 import java.util.Map;
 

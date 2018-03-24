@@ -1,5 +1,4 @@
-package main.java.teste.erbd.storm;
-
+package erbd.twitter;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Map;

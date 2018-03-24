@@ -1,5 +1,4 @@
-package main.java.teste.erbd.storm;
-
+package erbd.twitter;
 
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;

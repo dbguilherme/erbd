@@ -2,8 +2,7 @@
  * Taken from the storm-starter project on GitHub
  * https://github.com/nathanmarz/storm-starter/ 
  */
-package main.java.teste.erbd.storm;
-
+package erbd.twitter;
 //import backtype.storm.Config;
 //import backtype.storm.spout.SpoutOutputCollector;
 //import backtype.storm.task.TopologyContext;
