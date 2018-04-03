@@ -37,7 +37,7 @@ import java.util.Map;
 /**
  * This topology demonstrates Storm's stream groupings and multilang capabilities.
  */
-public class WordCountTopology2 {
+public class WordCountTopology {
  
 	
   public static class SplitSentence extends BaseBasicBolt {
@@ -108,7 +108,7 @@ public class WordCountTopology2 {
       LocalCluster cluster = new LocalCluster();
       cluster.submitTopology("word-count", conf, builder.createTopology());
 
-      Thread.sleep(10000);
+      Thread.sleep(100000);
 
       cluster.shutdown();
     }
