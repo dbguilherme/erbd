@@ -139,7 +139,7 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>src/jvm</sourceDirectory>
+    <sourceDirectory>teste/</sourceDirectory>
     <testSourceDirectory>test/jvm</testSourceDirectory>
     <resources>
       <resource>
