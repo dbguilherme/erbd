@@ -4,13 +4,12 @@
     <artifactId>storm</artifactId>
     <groupId>org.apache.storm</groupId>
     <version>1.2.1</version>
-    <relativePath>../../pom.xml/pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>storm-starter</artifactId>
   <name>storm-starter</name>
   <build>
-    <sourceDirectory>src/jvm</sourceDirectory>
+    <sourceDirectory>teste/</sourceDirectory>
     <testSourceDirectory>test/jvm</testSourceDirectory>
     <resources>
       <resource>

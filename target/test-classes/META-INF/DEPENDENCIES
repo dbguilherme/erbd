@@ -77,6 +77,14 @@ From: 'an unknown organization'
     License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
   - Joni (http://nexus.sonatype.org/oss-repository-hosting.html/joni) org.jruby.joni:joni:jar:2.1.2
     License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - BSON (http://bsonspec.org) org.mongodb:bson:jar:3.4.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - MongoDB Java Driver (http://www.mongodb.org) org.mongodb:mongo-java-driver:jar:3.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - MongoDB Driver (http://www.mongodb.org) org.mongodb:mongodb-driver:jar:3.4.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - MongoDB Java Driver Core (http://www.mongodb.org) org.mongodb:mongodb-driver-core:jar:3.4.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - XZ for Java (http://tukaani.org/xz/java.html) org.tukaani:xz:jar:1.0
     License: Public Domain 
   - twitter4j-core (http://twitter4j.org/) org.twitter4j:twitter4j-core:jar:3.0.3
@@ -370,6 +378,10 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
   - jasper-runtime (http://tomcat.apache.org/jasper-runtime) tomcat:jasper-runtime:jar:5.5.23
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Xerces2 Java Parser (http://xerces.apache.org/xerces2-j) xerces:xercesImpl:jar:2.9.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - storm-mongodb (http://storm.apache.org/external/storm-mongodb) org.apache.storm:storm-mongodb:jar:2.0.0-SNAPSHOT
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The Codehaus' (http://codehaus.org)
