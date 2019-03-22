@@ -1,10 +1,15 @@
 erbd/twitter/IgnoreWordsBolt.class
+erbd/WordCountMongo/WordCountTopology$WordCount.class
 erbd/WordCount/WordCountTopology.class
 erbd/twitter/TwitterSampleSpout$1.class
 erbd/twitter/WordSplitterBolt.class
 erbd/twitter/WordCounterBolt.class
+erbd/WordCountMongo/WordCountTopology$SplitSentence.class
+erbd/WordCountMongo/RandomSentenceSpout.class
 erbd/WordCount/WordCountTopology$WordCount.class
 erbd/WordCount/RandomSentenceSpout.class
+erbd/WordCountMongo/WordCountTopology.class
 erbd/twitter/TwitterSampleSpout.class
-erbd/WordCount/WordCountTopology$SplitSentence.class
+erbd/WordCountMongo/SimpleMongoMapper.class
 erbd/twitter/Topology.class
+erbd/WordCount/WordCountTopology$SplitSentence.class

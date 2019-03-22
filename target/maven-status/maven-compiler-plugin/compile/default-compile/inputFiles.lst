@@ -1,7 +1,10 @@
+/tmp/erbd/teste/erbd/WordCountMongo/RandomSentenceSpout.java
 /tmp/erbd/teste/erbd/twitter/WordSplitterBolt.java
 /tmp/erbd/teste/erbd/twitter/WordCounterBolt.java
+/tmp/erbd/teste/erbd/WordCountMongo/WordCountTopology.java
 /tmp/erbd/teste/erbd/twitter/Topology.java
+/tmp/erbd/teste/erbd/WordCountMongo/SimpleMongoMapper.java
 /tmp/erbd/teste/erbd/twitter/IgnoreWordsBolt.java
-/tmp/erbd/teste/erbd/WordCount/RandomSentenceSpout.java
 /tmp/erbd/teste/erbd/twitter/TwitterSampleSpout.java
+/tmp/erbd/teste/erbd/WordCount/RandomSentenceSpout.java
 /tmp/erbd/teste/erbd/WordCount/WordCountTopology.java

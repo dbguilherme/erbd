@@ -27,7 +27,7 @@ public class SimpleMongoMapper implements MongoMapper {
 
     public Document toDocumentByKeys(List<Object> keys) {
         Document document = new Document();
-        document.append("_id", MongoUtils.getId(keys));
+        //document.append("_id", MongoUtils.getId(keys));
         return document;
     }
 

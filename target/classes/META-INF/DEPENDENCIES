@@ -25,6 +25,8 @@ From: 'an unknown organization'
     License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
   - commons-beanutils  commons-beanutils:commons-beanutils:jar:1.7.0
 
+  - commons-pool  commons-pool:commons-pool:jar:1.5.4
+
   - kafka-avro-serializer  io.confluent:kafka-avro-serializer:jar:1.0
 
   - kafka-schema-registry-client  io.confluent:kafka-schema-registry-client:jar:1.0
@@ -275,8 +277,6 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Commons Net (http://commons.apache.org/net/) commons-net:commons-net:jar:3.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.5.4
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Ant Core (http://ant.apache.org/) org.apache.ant:ant:jar:1.9.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Ant Launcher (http://ant.apache.org/) org.apache.ant:ant-launcher:jar:1.9.1
@@ -369,6 +369,8 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - storm-metrics (http://storm.apache.org/external/storm-metrics) org.apache.storm:storm-metrics:jar:1.2.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - storm-mongodb (http://storm.apache.org/external/storm-mongodb) org.apache.storm:storm-mongodb:jar:2.0.0-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - storm-redis (http://storm.apache.org/external/storm-redis) org.apache.storm:storm-redis:jar:1.2.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Velocity (http://velocity.apache.org/engine/releases/velocity-1.5/) org.apache.velocity:velocity:pom:1.5
@@ -378,10 +380,6 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
   - jasper-runtime (http://tomcat.apache.org/jasper-runtime) tomcat:jasper-runtime:jar:5.5.23
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Xerces2 Java Parser (http://xerces.apache.org/xerces2-j) xerces:xercesImpl:jar:2.9.1
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-From: 'The Apache Software Foundation' (https://www.apache.org/)
-  - storm-mongodb (http://storm.apache.org/external/storm-mongodb) org.apache.storm:storm-mongodb:jar:2.0.0-SNAPSHOT
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The Codehaus' (http://codehaus.org)
