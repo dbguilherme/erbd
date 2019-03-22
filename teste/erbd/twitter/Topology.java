@@ -10,15 +10,8 @@ import org.apache.storm.topology.TopologyBuilder;
 
 
 
-//import storm.Config;
-//import backtype.storm.LocalCluster;
-//import backtype.storm.topology.TopologyBuilder;
 
-/**
- * Topology class that sets up the Storm topology for this sample.
- * Please note that Twitter credentials have to be provided as VM args, otherwise you'll get an Unauthorized error.
- * @link http://twitter4j.org/en/configuration.html#systempropertyconfiguration
- */
+
 public class Topology {
 
 	static final String TOPOLOGY_NAME = "storm-twitter";
@@ -36,7 +29,7 @@ public class Topology {
 
 		
 		 if (args != null && args.length > 0) {
-		      config.setNumWorkers(3);
+		      config.setNumWorkers(1);
 
 		      StormSubmitter.submitTopologyWithProgressBar(args[0], config, builder.createTopology());
 		    }
@@ -46,7 +39,7 @@ public class Topology {
 		      LocalCluster cluster = new LocalCluster();
 		      cluster.submitTopology("word-count", config, builder.createTopology());
 
-		      Thread.sleep(100000);
+		      Thread.sleep(1000);
 
 		      cluster.shutdown();
 		    }

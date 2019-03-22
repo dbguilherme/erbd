@@ -13,10 +13,7 @@ import org.apache.storm.tuple.Tuple;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Keeps stats on word count, calculates and logs top words every X second to stdout and top list every Y seconds,
- * @author davidk
- */
+
 public class WordCounterBolt extends BaseRichBolt {
 
 	private static final long serialVersionUID = 2706047697068872387L;
@@ -57,49 +54,14 @@ public class WordCounterBolt extends BaseRichBolt {
     public void execute(Tuple input) {
         String word = (String) input.getValueByField("word");
         String lang= (String) input.getValueByField("lang");
-        System.out.println(lang);
+       
         Long count = counter.get(word);
         count = count == null ? 1L : count + 1;
         counter.put(word, count);
+        System.out.println( word+ " " + count);
 
-//        logger.info(new StringBuilder(word).append('>').append(count).toString());
-
-        long now = System.currentTimeMillis();
-        long logPeriodSec = (now - lastLogTime) / 1000;
-        if (logPeriodSec > logIntervalSec) {
-        	logger.info("\n\n");
-        	logger.info("Word count: "+counter.size());
-
-     //       publishTopList();
-            lastLogTime = now;
-        }
     }
 
-//    //private void publishTopList() {
-//        // calculate top list:
-//        SortedMap<Long, String> top = new TreeMap<Long, String>();
-//        for (Map.Entry<String, Long> entry : counter.entrySet()) {
-//            long count = entry.getValue();
-//            String word = entry.getKey();
-//
-//            top.put(count, word);
-//            if (top.size() > topListSize) {
-//                top.remove(top.firstKey());
-//            }
-//        }
-//
-//        // Output top list:
-////        for (Map.Entry<Long, String> entry : top.entrySet()) {
-////            logger.info(new StringBuilder("top - ").append(entry.getValue()).append('|').append(entry.getKey()).toString());
-////        }
-//
-//        // Clear top list
-//        long now = System.currentTimeMillis();
-//        if (now - lastClearTime > clearIntervalSec * 1000) {
-//            //counter.clear();
-//            //lastClearTime = now;
-//        }
-//    }
     @Override
     public void cleanup() {
     	  SortedMap<Long, String> top = new TreeMap<Long, String>();
@@ -115,7 +77,7 @@ public class WordCounterBolt extends BaseRichBolt {
 
           // Output top list:
           for (Map.Entry<Long, String> entry : top.entrySet()) {
-              logger.info(new StringBuilder("top - ").append(entry.getValue()).append('|').append(entry.getKey()).toString());
+             System.out.println( entry.getValue()+ " " + entry.getKey());
           }
 
     }

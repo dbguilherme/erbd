@@ -12,9 +12,7 @@ import org.apache.storm.tuple.Values;
 
 import twitter4j.Status;
 
-/**
- * Receives tweets and emits its words over a certain length.
- */
+
 public class WordSplitterBolt extends BaseRichBolt {
 	
 	private static final long serialVersionUID = 5151173513759399636L;

@@ -59,7 +59,7 @@ static DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 	      for (int i = 0; i < vec.length; i++) {
 			collector.emit(new Values(vec[i]));
 	      }
-
+  
 	   }
     
     public void declareOutputFields(OutputFieldsDeclarer declarer) {

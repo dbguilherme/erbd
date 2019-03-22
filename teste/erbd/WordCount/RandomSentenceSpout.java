@@ -38,11 +38,7 @@ public class RandomSentenceSpout extends BaseRichSpout {
 	
 	private SpoutOutputCollector collector;
 	private String[] sentences = {
-			"ERBD 2018",
-			"ERBD: integracao de informacao, banco de dados",
-			"escola regional de banco de dados",
-			"oficina de processamento online de dados",
-			"banco de dados é top"
+			"Pos UNOESC",     "ERBD:inteligencia de dados, banco de dados",  "escola regional de banco de           dados",  "processamento online de dados",  "banco de dados é top"
 	};
 	private int index = 0;
 	

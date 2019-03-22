@@ -91,7 +91,7 @@ public class TwitterSampleSpout extends BaseRichSpout {
 		//twitterStream.sample("en");
 		
 		   FilterQuery qry = new FilterQuery();
-           String[] keywords = { "brasil","rio","favela" };
+           String[] keywords = { "brasil","trump","politica" };
 
            qry.track(keywords);
 
